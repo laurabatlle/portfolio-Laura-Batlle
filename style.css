@@ -93,7 +93,7 @@ p {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  width: 100%;
+  max-width: 100%;
   margin-bottom: 30px;
 }
 
