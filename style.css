@@ -6,7 +6,7 @@
 
 body {
   display: block;
-  margin-top: 100px;
+  margin-top: 100px auto;
 }
 
 h1,
@@ -91,8 +91,7 @@ p {
 .container {
   margin-top: 30px;
   display: block;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
   max-width: 100%;
   margin-bottom: 30px;
 }
@@ -127,7 +126,7 @@ p {
 }
 
 @media (max-widht: 576px) {
-  .mb-3 h2 {
+  h2 {
     text-align: center;
   }
   p {
@@ -137,5 +136,11 @@ p {
     display: block;
     text-align: center;
     margin: 0 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
   }
 }
