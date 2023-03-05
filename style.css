@@ -126,8 +126,8 @@ p {
   margin-top: 200px;
 }
 
-@media (max-widht: 576px) .col-md-6 {
-  h2 {
+@media (max-widht: 576px) {
+  .mb-3 h2 {
     text-align: center;
   }
   p {
