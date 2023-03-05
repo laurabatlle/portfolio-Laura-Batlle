@@ -105,7 +105,6 @@ p {
 
 .launch-links {
   box-sizing: border-box;
-
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
@@ -125,4 +124,18 @@ p {
 
 .contact-info {
   margin-top: 200px;
+}
+
+@media (max-widht: 576px) .col-md-6 {
+  h2 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  .launch-links {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
 }
