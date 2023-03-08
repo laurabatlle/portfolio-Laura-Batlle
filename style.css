@@ -125,7 +125,7 @@ p {
   margin-top: 200px;
 }
 
-@media (max-widht: 576px) {
+@media (max-width: 576px) {
   h2 {
     text-align: center;
   }
